@@ -1,0 +1,68 @@
+.html {
+  font-family: "Meiryo", sans-serif;
+}
+
+  .container {
+    background-color: pink;
+    height: cover;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 25px;
+  }
+
+@media screen and (max-width: 768px) {
+  .container {
+    background-color: red;
+    height: cover;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    background-color: red;
+    height: cover;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 5px;
+  }
+}
+
+.item {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  height: cover;
+  width: 100%;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .item {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: pink;
+    height: cover;
+    width: 70%;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .item {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: pink;
+    height: cover;
+    width: 40%;
+    font-size: 5px;
+  }
+}
+
+
+
